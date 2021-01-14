@@ -35,6 +35,9 @@
 
 > PE version: --ordinary-sinpos
 
+> Trained Model with PE:
+
+- [link](https://drive.google.com/file/d/1AKz9yxh7DA4cDzQgtMwhKeinEhWNoEdm/view?usp=sharing)
 
 ## Summarize Test file
 > Change the desired length parameter to the size you desire
