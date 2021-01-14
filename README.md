@@ -29,6 +29,10 @@
 > If program runs out of memory, reduce the token size or max sentences with --max_sentences, increase epoch to compensate
 - python train.py data-bin/gigaWord --source-lang wp_source --target-lang wp_target --arch transformer_wmt_en_de --optimizer adam  --clip-norm 0.0 --lr-scheduler inverse_sqrt --warmup-init-lr 1e-07  --warmup-updates 4000 --lr 0.001 --min-lr 1e-09 --dropout 0.3 --weight-decay 0.0 --criterion label_smoothed_cross_entropy --label-smoothing 0.1 --max-tokens 3584 --seed 2723 --max-epoch 100 --update-freq 16 --share-all-embeddings --represent-length-by-lrpe --ordinary-sinpos --save-dir output
 
+> LRPE version: --represent-length-by-lrpe
+> LDPE version: --represent-length-by-ldpe
+> PE version: --ordinary-sinpos
+
 
 ## Summarize Test file
 > Change the desired length parameter to the size you desire
